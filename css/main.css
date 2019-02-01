@@ -79,22 +79,26 @@ img {
 }
 
 p{
-	font-size:13px;
-	line-height:27px;
-	font-weight:400;
+	font-family: 'Charm', cursive;
+	
+	font-size:20px;
+	line-height:30px;
+	font-weight:300;
 	padding-bottom:33px;
 	margin:0px;
+	color: rgba(19, 16, 16, 0.829);
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color:#000;
 }
 h1{
-	font-family: 'Montserrat', sans-serif;
-	font-size:33px;
+	font-family: 'Krub', sans-serif;
+	font-size:5 rem;
 	line-height:76px;
 	font-weight:400;
 	margin:0px;
-	padding-bottom:8px;
+	padding-bottom:7px;
+	
 }
 h2{
 	font-family: 'Montserrat', sans-serif;
@@ -107,8 +111,7 @@ h2{
 	margin:0px;
 }
 h3{
-	font-family: 'Crimson Text', serif;
-	font-style:italic;
+	font-family: 'Noto Serif SC', serif;
 	font-size:27px;
 	line-height:30px;
 	padding-bottom:10px;
@@ -116,21 +119,30 @@ h3{
 	margin:0px;
 }
 h4{
-	font-family: 'Montserrat', sans-serif;
-	font-size:21px;
+	font-family: 'Arvo', serif;
+	font-size: 30px;
 	line-height:24px;
 	padding-bottom:10px;
 	font-weight:400;
 	margin:0px;
 }
 h5{
-	font-family: 'Montserrat', sans-serif;
-	font-size:17px;
+	font-family: 'Athiti', sans-serif;
+	font-size:20px;
 	color:#372d38;
 	line-height:24px;
 	padding-bottom:10px;
 	font-weight:400;
 	margin:0px;
+}
+h6{
+	font-family: 'Dancing Script', cursive;
+	font-size:50px;
+	line-height:30px;
+	padding-bottom:10px;
+	font-weight:300;
+	margin:0px;
+	
 }
 .wrapper .media {
 	margin-top:0;
@@ -220,7 +232,7 @@ header{
 	text-transform:uppercase;
 	line-height:normal;
 	font-weight:300;
-	color:#fff;
+	color:rgb(17, 3, 3);
 	letter-spacing:4px;
 }
 .bannerText h3{
@@ -239,6 +251,35 @@ header{
 .isStuck{
     left:0px;
     width:100%;
+}
+.nav-posittion{
+	width:42px;
+	height:32px;
+	text-align:center;
+	background:#5b4c5c;
+	position:absolute;
+	left:5%;
+	margin-left:-21px;
+	top:36px;
+	z-index:999;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.nav-position{
+	width:42px;
+	height:32px;
+	text-align:center;
+	background:#5b4c5c;
+	position:absolute;
+	left:10%;
+	margin-left:-21px;
+	top:36px;
+	z-index:999;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+
 }
 .menu{
 	margin-top:34px;
@@ -269,9 +310,9 @@ header{
 .navbar.navbar-inverse.navbar-static-top a.closeMenu {
 	width:32px;
 	height:32px;
-	border:1px solid #fff;
+	border:1px solid rgb(0, 0, 0);
 	text-align:center;
-	color:#fff;
+	color:rgb(2, 2, 2);
 	font-weight:normal;
 	position:absolute;
 	right:0;
@@ -291,7 +332,7 @@ header{
 .closeMenu i {
 	font-size:14px;
 	line-height:32px;
-	color:#fff;
+	color:rgb(0, 0, 0);
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu {
 	border-color:#000;
@@ -342,7 +383,7 @@ header{
 .navbar.navbar-inverse.navbar-static-top {
   margin:0px auto;
   background:none;
-  color:#c3c8d6;
+  color:#1643c0;
   border:none;
   font-family: 'Open Sans', sans-serif;
   font-size:14px;
@@ -350,21 +391,21 @@ header{
   text-transform:uppercase;
 }
 .navbar.navbar-inverse.navbar-static-top a{
-  color:#fff;
+  color:rgb(3, 2, 2);
   padding:31px 16px;
   line-height:18px;
   text-align:center;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover{
   background:none;
-  color:#fff;
+  color:rgb(170, 15, 15);
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
   background: none;
-  color:#fff !important;
+  color:rgb(12, 3, 3) !important;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
-  color:#fff;
+  color:rgb(20, 10, 10);
 }
 
 .hideClass{
@@ -372,11 +413,11 @@ header{
 }
 .isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
   background: #181a1c;
-  color:#fff ;
+  color:rgb(0, 0, 0) ;
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
   background:#181a1c;
-  color:#fff;
+  color:rgb(2, 2, 2);
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a{
   color:#000;
@@ -387,16 +428,16 @@ header{
 	text-align:center;
 	background:#5b4c5c;
 	position:absolute;
-	left:10%;
+	left:95%;
 	margin-left:-21px;
-	top:36px;
+	top:20px;
 	z-index:999;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
 }
 .nav-icon i {
-	color:#fff;
+	color:rgb(0, 0, 0);
 	line-height:32px;
 	font-size:24px;
 	font-weight:normal;
@@ -415,7 +456,7 @@ header{
 	background: transparent;
 }
 .isStuck{
-	background:#fff ;
+	background:rgb(118, 10, 180) ;
 	
 	-o-transition: all .5s;
     -ms-transition: all .5s;
@@ -443,7 +484,7 @@ header{
 	padding-bottom:41px;
 }
 .aboutus h4 {
-	font-size:16px;
+	font: size 17;
 	color:#5b4c5c;
 	padding-bottom:20px;
 }
@@ -466,29 +507,32 @@ header{
 	5. Skill & Expert Style
 ------------------------------------------------------*/
 .skillset {
+	
 	background:#f8f8f8;
 	display:table;
 	width:100%;
 }
 .skillset .container{
+	
 	padding-top:66px ;
 	padding-bottom:64px ;
 }
 .skillbar {
 	position:relative;
 	display:block;
-	margin-bottom:53px;
+	margin-bottom:80px;
+	left: 60%;
 	width:100%;
-	background:#e2e1e2;
-	height:7px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
+	background:#ccc6cc;
+	height:9px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-transition:0.5s linear;
+	-moz-transition:0.5s linear;
+	-ms-transition:0.5s linear;
+	-o-transition:0.5s linear;
+	transition:0.5s linear;
 	-webkit-transition-property:width, background-color;
 	-moz-transition-property:width, background-color;
 	-ms-transition-property:width, background-color;
@@ -505,7 +549,7 @@ header{
 	line-height:27px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#5b4c5c;
+	color:#87608a;
 }
 
 .skillbar-title span {
@@ -515,14 +559,14 @@ header{
 .skillbar-bar {
 	height:7px;
 	width:0px;
-	background:#e88988;
+	background:#080a74;
 }
 
 .skill-bar-percent {
 	position:absolute;
 	top:-24px;
 	font-size:14px;
-	color:#796f7a;
+	color:#9b44a3;
 	margin-left:-20px;
 }
 
@@ -548,7 +592,7 @@ header{
 	font-style:italic;
 }
 .expertiesdesc {
-	border-left:2px solid #ada5ad;
+	border-left:3px solid #ada5ad;
 	padding:0 0 0 69px;
 	margin-bottom:100px;
 }
@@ -564,9 +608,9 @@ header{
 	letter-spacing:2px;
 }
 .expertiesdesc h5 {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Athiti', sans-serif;
 	color:#5b4c5c;
-	font-size:18px;
+	font-size:20px;
 	font-style:italic;
 	font-weight:400;
 }
@@ -1431,4 +1475,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		top:0px;
 		
 	}
+	
+	
 }
