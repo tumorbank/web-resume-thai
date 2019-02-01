@@ -521,7 +521,7 @@ header{
 	position:relative;
 	display:block;
 	margin-bottom:80px;
-	left: 60%;
+	margin:center;
 	width:100%;
 	background:#ccc6cc;
 	height:9px;
